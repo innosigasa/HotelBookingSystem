@@ -1,0 +1,18 @@
+﻿#room{
+    background-color: black;
+    color: white;
+}
+
+.Column{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 60px;
+    width: 500px;
+}
+
+.Row{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 20px;
+}

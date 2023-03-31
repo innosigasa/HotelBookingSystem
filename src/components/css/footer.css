@@ -1,0 +1,51 @@
+﻿.Box{
+    padding: 40px 40px;
+    background: black;
+    position: absolute;
+    bottom: 0;
+    width: 94.15%;
+}
+
+
+.Container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	max-width: 1000px;
+	margin: 0 auto;
+	/* background: red; */
+}
+
+.Column{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 60px;
+}
+
+.Row{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,
+                            minmax(185px, 1fr));
+    grid-gap: 20px;
+}
+
+
+.FooterLink{
+color: #fff;
+margin-bottom: 20px;
+font-size: 18px;
+text-decoration: none;
+}
+.FooterLink:hover {
+	color: green;
+	transition: 200ms ease-in;
+}
+
+
+Heading{
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 40px;
+    font-weight: bold;
+}

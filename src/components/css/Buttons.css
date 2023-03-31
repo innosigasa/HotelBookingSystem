@@ -1,0 +1,53 @@
+﻿.button{
+    border-radius: 12px;
+    color: white;
+    text-align: center;
+    padding: 10px 25px;
+    border: none;
+    display: inline-block;
+    margin: 1px;
+}
+
+.update-button{
+    background-color: #4CAF50;
+}
+    .update-button:hover{
+        background-color: #3e8e41
+    }
+
+.cancel-button{
+    background-color: #df651e;
+}
+
+    .cancel-button:hover{
+        background-color: #946a0e;
+    }
+
+.edit-button{
+    background-color: #0ef5e9;
+}
+    .edit-button:hover{
+        background-color: #0caad1;
+    }
+
+.details-button{
+    background-color: #c111e493;
+}
+
+    .details-button:hover{
+        background-color: #a02be4fd;
+    }
+
+.create-button{
+    background-color: #f4f136;
+}
+    .create-button:hover{
+        background-color: #a1cc07;
+    }
+
+.delete-button{
+    background-color: #f44336;
+}
+    .delete-button:hover{
+        background-color: #cc0707;
+    }
